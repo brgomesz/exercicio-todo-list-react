@@ -1,0 +1,38 @@
+/* From Uiverse.io by kamehame-ha */ 
+.botao-github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 20px;
+    gap: 15px;
+    background-color: #181717;
+    outline: 3px #181717 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .botao-github .text {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 400ms;
+  }
+  
+  .botao-github svg path {
+    transition: 400ms;
+  }
+  
+  .botao-github:hover {
+    background-color: 181717;
+  }
+  
+  .botao-github:hover .text {
+    color: rgb(153, 153, 153);
+  }
+  
+  .botao-github:hover svg path {
+    fill: rgb(153, 153, 153);
+  }

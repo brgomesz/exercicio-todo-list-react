@@ -1,0 +1,38 @@
+/* From Uiverse.io by kamehame-ha */ 
+.botao-linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+    gap: 10px;
+    background-color: #0077B5;
+    outline: 3px #0077B5 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .botao-linkedin .text {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 400ms;
+  }
+  
+  .botao-linkedin svg path {
+    transition: 400ms;
+  }
+  
+  .botao-linkedin:hover {
+    background-color: #0076b5;
+  }
+  
+  .botao-linkedin:hover .text {
+    color: #181717;
+  }
+  
+  .botao-linkedin:hover svg path {
+    fill: #181717;
+  }

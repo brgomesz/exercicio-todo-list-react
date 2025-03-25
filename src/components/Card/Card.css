@@ -1,0 +1,164 @@
+
+
+.card{
+    height: auto;
+    width: 700px;
+    background-color:#80d9ff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(63, 63, 63);
+    padding-bottom: 40px;
+   
+}
+
+.titulo{
+    font-size: 60px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.componente{
+   text-align: center;
+   padding-top: 20px;
+}
+
+.card-adicionar,
+.card-respostas {
+    height: 100px;
+    width: 80%;
+    background-color: #003366;
+    margin: 50px auto; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card-adicionar{
+    height: 100px;
+}
+.card-respostas {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 45px 0px;
+  }
+  
+
+.input-adicionar {
+    height: 25px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+.card-botoes {
+    height: 160px;
+    width: 80%;
+    background-color: #003366;
+    margin: 50px auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card-botoes-botoes {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.card-botoes span{
+    color:white;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin:8px;
+    font-weight: 600;
+}
+
+.tarefa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  10px;
+    margin: auto 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    width: 400px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    
+  }
+  
+  .tarefa span {
+    text-align: left;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .botoes-tarefa {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .botao-editar,
+  .botao-excluir {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .botao-editar:hover {
+    color: #4a90e2;
+  }
+  
+  .botao-excluir:hover {
+    color: #e24a4a;
+  }
+
+ 
+.botao-adicionar {
+    border: none;
+    outline: none;
+    background-color: #80d9ff;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(22, 22, 22);
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #78d6ff;
+    margin-bottom: 5px;
+    cursor:pointer;
+  }
+  
+  .botao-adicionar:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe;
+  }
+  
+  

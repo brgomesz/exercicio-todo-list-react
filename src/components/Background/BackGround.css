@@ -1,0 +1,20 @@
+.background {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.imagem-1 {
+  background-image: url("./plano-escuro.avif");
+  background-size: cover;
+  background-position: center;
+}
+
+.imagem-2 {
+  background-image: url("./fundo-azul-claro.png");
+  background-size: cover;
+  background-position: center;
+}
