@@ -1,4 +1,4 @@
-import "./components/BotaoGithub.css";
+import "./BotaoGithub.css";
 
 function BotaoGithub() {
   return (

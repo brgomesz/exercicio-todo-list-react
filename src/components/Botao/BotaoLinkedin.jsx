@@ -1,4 +1,4 @@
-import "./components/BotaoLinkedin.css";
+import "./BotaoLinkedin.css";
 
 function BotaoLinkedin() {
   return (

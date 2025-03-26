@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./components/Card.css";
+import "./Card.css";
 import Switch from "../Switch/Switch";
 import BotaoGithub from "../Botao/BotaoGithub";
 import BotaoLinkedin from "../Botao/BotaoLinkedin";
