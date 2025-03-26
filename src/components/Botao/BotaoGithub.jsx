@@ -4,7 +4,7 @@ function BotaoGithub() {
   return (
     <button
       class="botao-github"
-      onClick={() => window.open("https://github.com/brgomesz", "_blank")}
+      onClick={() => window.open("https://github.com/brgomesz/exercicio-todo-list-react", "_blank")}
     >
       <svg
         width="24"
