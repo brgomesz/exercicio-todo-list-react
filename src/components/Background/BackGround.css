@@ -4,17 +4,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: background-image 0.3s ease-in-out;
+  transition: background-image 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
 }
 
 .imagem-1 {
-  background-image: url("./plano-escuro.avif");
+  background-image: radial-gradient(circle at top, #001f3f, #003366, #005b96, #007bb5);
   background-size: cover;
   background-position: center;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.7), 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .imagem-2 {
-  background-image: url("./fundo-azul-claro.png");
+  background-image: radial-gradient(circle at center, #B0E0E6, #87CEEB, #4682B4, #1E90FF);
   background-size: cover;
   background-position: center;
+  box-shadow: inset 0 0 50px rgba(255, 255, 255, 0.5), 0 10px 20px rgba(0, 0, 255, 0.3);
 }
