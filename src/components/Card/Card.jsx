@@ -46,6 +46,7 @@ function Card({ toggleBackground }) {
             placeholder="Adicione uma tarefa"
             className="input-adicionar"
             type="text"
+            maxlength="16"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
           />
